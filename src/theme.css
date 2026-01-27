@@ -66,22 +66,40 @@ html.light .bg-slate-900 {
   border: 1px solid #cbd5e1 !important;
 }
 
+html.light .bg-slate-800 {
+  background-color: #ffffff !important;
+  border: 1px solid #cbd5e1 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+html.light .bg-slate-900\/50 {
+  background-color: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+
 html.light .from-slate-900 {
-  background: linear-gradient(to bottom, #ffffff, #f8fafc) !important;
+  background: linear-gradient(to bottom, #f0f9ff, #e0f2fe) !important;
 }
 
 html.light .via-slate-950 {
-  background: linear-gradient(to bottom, #ffffff, #f8fafc, #f1f5f9) !important;
+  background: linear-gradient(to bottom, #f0f9ff, #e0f2fe, #f8fafc) !important;
 }
 
 html.light .to-slate-950 {
-  background: linear-gradient(to bottom, #ffffff, #f8fafc) !important;
+  background: linear-gradient(to bottom, #e0f2fe, #f8fafc) !important;
 }
 
 html.light .bg-gradient-to-b {
-  background: linear-gradient(to bottom, #ffffff, #f8fafc) !important;
-  border-bottom: 2px solid #cbd5e1 !important;
+  background: linear-gradient(to bottom, #f0f9ff, #e0f2fe, #f8fafc) !important;
+  border-bottom: 1px solid #0891b2 !important;
+  box-shadow: 0 4px 6px -1px rgba(8, 145, 178, 0.1), 0 2px 4px -1px rgba(8, 145, 178, 0.06) !important;
 }
+
+html.light .bg-linear-to-br {
+  background: #ffffff !important;
+}
+
 
 /* Hero section titles */
 html.light .text-6xl {
@@ -106,18 +124,23 @@ html.light .text-white {
 }
 
 html.light .text-gray-300 {
-  color: #1f2937 !important;
-  font-weight: 600;
+  color: #334155 !important;
+  font-weight: 500;
 }
 
 html.light .text-slate-300 {
-  color: #1f2937 !important;
-  font-weight: 600;
+  color: #334155 !important;
+  font-weight: 500;
 }
 
 html.light .text-slate-400 {
-  color: #374151 !important;
-  font-weight: 600;
+  color: #475569 !important;
+  font-weight: 500;
+}
+
+html.light .text-gray-400 {
+  color: #64748b !important;
+  font-weight: 500;
 }
 
 html.light .text-cyan-300 {
@@ -135,6 +158,47 @@ html.light .text-red-300 {
   font-weight: 600;
 }
 
+html.light .text-red-400 {
+  color: #ef4444 !important;
+  font-weight: 600;
+}
+
+/* Gray text colors - improved contrast */
+html.light .text-gray-200 {
+  color: #1f2937 !important;
+  font-weight: 600;
+}
+
+html.light .text-gray-300 {
+  color: #374151 !important;
+  font-weight: 500;
+}
+
+html.light .text-gray-400 {
+  color: #4b5563 !important;
+  font-weight: 500;
+}
+
+html.light .text-gray-500 {
+  color: #6b7280 !important;
+  font-weight: 500;
+}
+
+html.light .text-gray-600 {
+  color: #4b5563 !important;
+  font-weight: 500;
+}
+
+html.light .text-gray-700 {
+  color: #374151 !important;
+  font-weight: 600;
+}
+
+html.light .text-gray-900 {
+  color: #111827 !important;
+  font-weight: 600;
+}
+
 /* DevConnect logo and main titles */
 html.light .font-mono {
   color: #000000 !important;
@@ -142,7 +206,9 @@ html.light .font-mono {
 }
 
 /* Specific section improvements */
-html.light h1, html.light h2, html.light h3 {
+html.light h1,
+html.light h2,
+html.light h3 {
   color: #000000 !important;
   font-weight: 800 !important;
 }
@@ -164,7 +230,9 @@ html.light .text-xl {
 }
 
 /* Large text elements */
-html.light .text-3xl, html.light .text-4xl, html.light .text-5xl {
+html.light .text-3xl,
+html.light .text-4xl,
+html.light .text-5xl {
   color: #000000 !important;
   font-weight: 800 !important;
 }
@@ -179,8 +247,9 @@ html.light .border-slate-700 {
 }
 
 html.light .border-slate-800 {
-  border-color: #94a3b8 !important;
+  border-color: #e2e8f0 !important;
 }
+
 
 html.light .border-cyan-900\/30 {
   border-color: rgba(8, 145, 178, 0.3) !important;
@@ -195,7 +264,8 @@ html.light .border-cyan-400\/50 {
 }
 
 html.light .bg-cyan-900\/20 {
-  background-color: rgba(8, 145, 178, 0.1) !important;
+  background-color: #0891b2 !important;
+  box-shadow: 0 4px 6px -1px rgba(8, 145, 178, 0.3), 0 2px 4px -1px rgba(8, 145, 178, 0.2) !important;
 }
 
 html.light .bg-cyan-900\/30 {
@@ -227,7 +297,22 @@ html.light .hover\:text-white:hover {
 }
 
 html.light .hover\:bg-cyan-900\/50:hover {
-  background-color: rgba(8, 145, 178, 0.2) !important;
+  background-color: rgba(8, 145, 178, 0.25) !important;
+}
+
+html.light .hover\:bg-cyan-600\/50:hover {
+  background-color: #0e7490 !important;
+  box-shadow: 0 10px 15px -3px rgba(8, 145, 178, 0.4), 0 4px 6px -2px rgba(8, 145, 178, 0.3) !important;
+}
+
+html.light .bg-slate-800\/50 {
+  background-color: #f1f5f9 !important;
+  border-color: #cbd5e1 !important;
+}
+
+html.light .hover\:bg-slate-800:hover {
+  background-color: #e2e8f0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
 }
 
 html.light .hover\:bg-red-900\/40:hover {
@@ -240,4 +325,210 @@ html.light .hover\:border-cyan-500:hover {
 
 html.light .hover\:border-slate-500:hover {
   border-color: #64748b !important;
+}
+
+/* Code block styling for light mode */
+html.light .bg-linear-to-br,
+html.light .from-cyan-500\/10,
+html.light .to-blue-500\/10 {
+  background: linear-gradient(to bottom right, #e0f2fe, #dbeafe) !important;
+  border-color: #0891b2 !important;
+  box-shadow: 0 4px 6px -1px rgba(8, 145, 178, 0.1), 0 2px 4px -1px rgba(8, 145, 178, 0.06) !important;
+}
+
+html.light .text-green-400 {
+  color: #059669 !important;
+  font-weight: 600;
+}
+
+html.light .text-emerald-400 {
+  color: #10b981 !important;
+  font-weight: 600;
+}
+
+html.light .text-yellow-400 {
+  color: #d97706 !important;
+  font-weight: 600;
+}
+
+/* Improve button text visibility */
+html.light .bg-cyan-600\/30 .text-cyan-300,
+html.light .border-cyan-400\/50 ~ * {
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+/* Secondary button styling */
+html.light .border-gray-600\/30 {
+  border-color: #cbd5e1 !important;
+}
+/* ===== Toast Notifications ===== */
+
+/* Base Toast Container */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+/* Base Toast Styles */
+.Toastify__toast {
+  border-radius: 12px !important;
+  padding: 16px 20px !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.95rem;
+  font-weight: 600;
+  box-shadow: 0 10px 25px var(--shadow), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  min-height: 64px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.Toastify__toast:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px var(--shadow), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.Toastify__toast-body {
+  margin: 0;
+  padding: 0 8px;
+  line-height: 1.5;
+}
+
+/* Close Button */
+.Toastify__close-button {
+  opacity: 0.6;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+.Toastify__close-button > svg {
+  height: 18px;
+  width: 18px;
+}
+
+/* Progress Bar */
+.Toastify__progress-bar {
+  height: 4px !important;
+  border-radius: 0 0 12px 12px !important;
+}
+
+/* ===== Light Mode Toast ===== */
+html.light .Toastify__toast {
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+html.light .Toastify__toast--success {
+  border-left: 4px solid #10b981 !important;
+  background: linear-gradient(to right, #ecfdf5 0%, #ffffff 10%) !important;
+}
+
+html.light .Toastify__toast--success .Toastify__progress-bar {
+  background: linear-gradient(to right, #10b981, #059669) !important;
+}
+
+html.light .Toastify__toast--error {
+  border-left: 4px solid #ef4444 !important;
+  background: linear-gradient(to right, #fef2f2 0%, #ffffff 10%) !important;
+}
+
+html.light .Toastify__toast--error .Toastify__progress-bar {
+  background: linear-gradient(to right, #ef4444, #dc2626) !important;
+}
+
+html.light .Toastify__toast--info {
+  border-left: 4px solid #0891b2 !important;
+  background: linear-gradient(to right, #ecf9ff 0%, #ffffff 10%) !important;
+}
+
+html.light .Toastify__toast--info .Toastify__progress-bar {
+  background: linear-gradient(to right, #0891b2, #0e7490) !important;
+}
+
+html.light .Toastify__toast--warning {
+  border-left: 4px solid #f59e0b !important;
+  background: linear-gradient(to right, #fffbeb 0%, #ffffff 10%) !important;
+}
+
+html.light .Toastify__toast--warning .Toastify__progress-bar {
+  background: linear-gradient(to right, #f59e0b, #d97706) !important;
+}
+
+html.light .Toastify__close-button {
+  color: #64748b;
+}
+
+html.light .Toastify__close-button:hover {
+  color: #1e293b;
+}
+
+/* ===== Dark Mode Toast ===== */
+html.dark .Toastify__toast {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border: 1px solid #334155 !important;
+}
+
+html.dark .Toastify__toast--success {
+  border-left: 4px solid #22d3ee !important;
+  background: linear-gradient(to right, #164e63 0%, #1e293b 15%) !important;
+}
+
+html.dark .Toastify__toast--success .Toastify__progress-bar {
+  background: linear-gradient(to right, #22d3ee, #06b6d4) !important;
+}
+
+html.dark .Toastify__toast--error {
+  border-left: 4px solid #ef4444 !important;
+  background: linear-gradient(to right, #7f1d1d 0%, #1e293b 15%) !important;
+}
+
+html.dark .Toastify__toast--error .Toastify__progress-bar {
+  background: linear-gradient(to right, #f87171, #ef4444) !important;
+}
+
+html.dark .Toastify__toast--info {
+  border-left: 4px solid #38bdf8 !important;
+  background: linear-gradient(to right, #0c4a6e 0%, #1e293b 15%) !important;
+}
+
+html.dark .Toastify__toast--info .Toastify__progress-bar {
+  background: linear-gradient(to right, #38bdf8, #0284c7) !important;
+}
+
+html.dark .Toastify__toast--warning {
+  border-left: 4px solid #fbbf24 !important;
+  background: linear-gradient(to right, #78350f 0%, #1e293b 15%) !important;
+}
+
+html.dark .Toastify__toast--warning .Toastify__progress-bar {
+  background: linear-gradient(to right, #fbbf24, #f59e0b) !important;
+}
+
+html.dark .Toastify__close-button {
+  color: #94a3b8;
+}
+
+html.dark .Toastify__close-button:hover {
+  color: #f8fafc;
+}
+
+/* Animation Enhancements */
+@keyframes toastSlideIn {
+  from {
+    transform: translate3d(0, -100%, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.Toastify__toast--top-center {
+  animation: toastSlideIn 0.4s ease-out;
 }
